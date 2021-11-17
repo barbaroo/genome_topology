@@ -460,3 +460,27 @@ def r_squared(x, y, degree):
     #plt.plot(x,y)
     #plt.plot(x, (x*coeffs[0]+coeffs[1]))
     return results['determination']
+
+
+def Select_entangled_fraction(mat, mode= None):
+    if (mode == 'Parallel'):
+        mat[mat == 1] = 0
+        mat[mat == 7] = 0
+        mat[mat == 4] = 0
+        mat[mat != 0] = 1
+        
+    elif (mode == 'Cross'):
+        mat[mat == 1] = 0
+        mat[mat == 7] = 0
+        mat[mat == 2] = 0
+        mat[mat == 3] = 0
+        mat[mat == 5] = 0
+        mat[mat == 6] = 0
+        mat[mat != 0] = 1 
+                
+    else:   
+        mat[mat == 1] = 0
+        mat[mat == 7] = 0
+        mat[mat != 0] = 1 
+        
+    return mat  
