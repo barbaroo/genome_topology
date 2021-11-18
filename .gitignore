@@ -3,7 +3,12 @@ _pycache_
 Hi-C map analysis/backup code
 Hi-C map analysis/.ipynb_checkpoints
 Hi-C map analysis/_pycache_
+Hi-C map analysis/Hi-C data
+Hi-C map analysis/results
+
 results
 local analysis
 local analysis/figures
 local analysis/matrices
+Hi-C map analysis/data
+data
