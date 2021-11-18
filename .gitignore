@@ -1,8 +1,9 @@
 .ipynb_checkpoints
 _pycache_
-Hi-C map
+Hi-C map analysis/backup code
+Hi-C map analysis/.ipynb_checkpoints
+Hi-C map analysis/_pycache_
 results
-Concerted_analysis.ipynb
 local analysis
 local analysis/figures
 local analysis/matrices
