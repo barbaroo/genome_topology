@@ -12,3 +12,6 @@ local analysis/figures
 local analysis/matrices
 Hi-C map analysis/data
 data
+
+functions/.ipynb_checkpoints
+functions/_pycache_
