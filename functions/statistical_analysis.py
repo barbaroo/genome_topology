@@ -9,6 +9,9 @@ Created on Fri Nov  5 14:15:57 2021
 import scipy.stats as ss
 import pandas as pd
 import numpy as np
+import matplotlib.pyplot as plt
+import seaborn as sns
+import scipy
 
 def statistical_comparison(dist1, dist2):
     shapiro1=ss.shapiro(dist1)
@@ -86,3 +89,14 @@ def correlate (var1, var2):
         p_coeff= "%.1E" % corr[1]
     
     return corr_coeff, p_coeff
+
+def find_peaks_distribution(length,n_peaks, threshold=0.00000):
+    plt.figure()
+    ax = sns.kdeplot(length)
+    x = ax.lines[0].get_xdata() # Get the x data of the distribution
+    y = ax.lines[0].get_ydata() # Get the y data of the distribution
+    peak= scipy.signal.find_peaks(y, threshold)
+    array=np.array(peak[0])
+    for t in range(len(array)):
+        plt.scatter(x[array[t]],y[array[t]])
+    return x,array
