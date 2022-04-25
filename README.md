@@ -1,6 +1,8 @@
 # genome_topology
 Topological analysis of genome folds based on Circuit Topology (CT) and Network Topology
 
+Cite the code: [![DOI](https://zenodo.org/badge/428377249.svg)](https://zenodo.org/badge/latestdoi/428377249)
+
 This package contains tools for Circuit Topology analysis pipeline of genomic structures, as presented in the paper 'Circuit topology analysis of cellular genome
 reveals signature motifs, conformational heterogeneity and scaling' by Barbara Scalvini, Helmut Schiessel, Anatoly Golovnev and Alireza Mashaghi.
 
