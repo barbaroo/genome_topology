@@ -1,12 +1,10 @@
 .ipynb_checkpoints
-__pycache__/
 __pycache__
 Hi-C map analysis/backup code
 Hi-C map analysis/.ipynb_checkpoints
 Hi-C map analysis/__pycache__
 Hi-C map analysis/Hi-C data
 Hi-C map analysis/results
-Hi-C map analysis/results counts
 functions/.ipynb_checkpoints
 functions/__pycache__
 results
@@ -15,5 +13,8 @@ local analysis/figures
 local analysis/matrices
 Hi-C map analysis/data
 data
+Hi-C map analysis/results counts
 protein data
-bacterial DNA
+Hi-C map analysis/bacterial DNA
+
+
